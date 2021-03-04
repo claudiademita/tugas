@@ -3,10 +3,22 @@
 using namespace std;
 
 int pembagian(){
-  int a = 2;
-  int b = 6;
+  int a, b;
+  int n = 10;
   
-  cout<<"Hasil : "<<b/a<<endl;
+  for(i = 0; i < n; i++)
+  {
+    cout<<"Masukkan nilai a: ";
+    cin>>a;
+    cout<<endl;
+  
+    cout<<"Masukkan nilai b: ";
+    cin>>b;
+    cout<<endl;
+    
+    cout<<"Hasil : "<<b/a<<endl;
+    cout<<endl;
+  }
 }
 
 int main(){
