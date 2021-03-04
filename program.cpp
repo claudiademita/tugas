@@ -2,14 +2,14 @@
 
 using namespace std;
 
-int penjumlahan(){
+int pengurangan(){
   int a = 2;
   int b = 6;
   
-  cout<<"Hasil : "<<a+b<<endl;
+  cout<<"Hasil : "<<b-a<<endl;
 }
 
 int main(){
-  penjumlahan();
+  pengurangan();
   return 0;
 }
